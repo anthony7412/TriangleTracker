@@ -35,7 +35,7 @@ function finalResult(){
         alert("Triangle is isosceles triangle" )
     }
     else if((this.sideOne + this.sideTwo) <= this.sideThree|| (this.sideOne + this.sideThree) <= this.sideTwo || (this.sideTwo + this.sideThree) <= this.sideOne) {
-        alert("Not a definite triangle");
+        alert("Triangle is Not a definite");
         }
     else{
         alert("Triangle is scalne Triangle")
