@@ -1,0 +1,48 @@
+
+
+
+
+
+
+.new{
+    width:50px;
+    height: 4px;
+    border-top: 1px solid #388697;
+}
+
+
+.triangle-head{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+#image1{
+    width:100px;
+    /* height: 100%; */
+}
+
+
+
+
+.footer-1 {
+    background:#388697;
+    padding: 20px;
+    color: black;
+}
+
+.fotter-text p {
+    text-align: center;
+    color: black;
+    
+}
+h5{
+    color: white;
+    text-align: center;
+}
+.social {
+    text-align: center;
+}
+
+#form-name{
+    background: whitesmoke;
+}

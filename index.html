@@ -4,17 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TriangleTracker</title>
+    <link rel="shortcut icon" href="image/tri.jpeg">
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <link rel="stylesheet" href="js/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>TriangleTracker</h1>
-
-    <form>
+    <section id="form-name">
+        <form class="text-center border border-light p-5" action="#!">
+            <p class="h4 mb-4"> <h1>TriangleTracker</h1></p>  <br>
+                <div class="col-6">
+                        <input type="" id="sideOne" class="form-control" placeholder="sideOne">
+                    </div><hr>
+                    <div class="col-6">
+                            <input type="text" id="sideTwo" class="form-control" placeholder="sideTwo">
+                        </div><hr>
+                            <div class="col-6">
+                                    <input type="text" id="sideThree" class="form-control" placeholder="sideThree">
+                            </div>
+                            <hr><br>
+            <button onclick="getdata()" class="btn btn-info my-4 btn-block waves-effect waves-light" type="submit">Submit</button>
+            </form>
+    </section>
+    <section id="triangle">
         <div class="container">
             <div class="row">
-                <label type="text">Enter the the first side of triangle</label>
-                <input type="number">
+                <div class="col-md-4 text-center">
+                    <h3 class="triangle-head">Equilateral Triangle</h3><hr class="new">
+                    <img src="image/e1.png"  alt="tri-image"   id="image1">
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 class="triangle-head">Isoscles Triangle</h3><hr class="new">
+                    <img src="image/i1.png"  alt="tri-image"   id="image1">
+
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 class="triangle-head">Scalene triangle</h3><hr class="new">
+                    <img src="image/s1.png"  alt="tri-image"   id="image1">
+
+                </div>
             </div>
         </div>
-    </form>
+    </section>
+    <footer class="footer-1">
+        <div class="fotter-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"> </div>
+       
+                    <div class="col-md-4">
+                    
+                        <h5>HIDRI:+254-745970352 </h5>
+                        <h5>hidri@copyright.com </h5>
+                    </div>
+                    <div class="col-md-4">  
+                         </div>
+                    <div class="col-md-12">
+                    
+                        <div class="social">
+                            <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x" style="color: whitesmoke;"></i></a>
+                            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"  style="color: whitesmoke;"></i></i></a>
+                            <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"  style="color: whitesmoke;"></i></i></a>
+                            <a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"  style="color: whitesmoke;"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </footer>  
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<script src="js/jquery.js"></script>
+
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/wow/wow.min.js"></script>
+<script src="js/script.js"></script>
+
 </html>
